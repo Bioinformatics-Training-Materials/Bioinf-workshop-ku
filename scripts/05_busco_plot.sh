@@ -26,3 +26,13 @@ docker run --rm \
 
 # Wait for user input before closing the terminal
 read -p "Press [Enter] key to exit..."
+
+# -------------------- Descriptions --------------------
+
+# --rm : Automatically removes the container after execution.  
+# --user $(id -u):$(id -g) : Runs the container with the current user’s ID and group.  
+# -v : Mounts a directory or file from the host machine to the container.  
+# -w : Sets the working directory inside the container.  
+# chmod +x : Makes a script executable.  
+# chmod -R ugo+rw : Grants read and write permissions to all users recursively.  
+# read -p : Prompts the user for input before exiting.  

@@ -15,3 +15,16 @@ docker run --rm -u $(id -u):$(id -g) \
     -w /busco_results \
     fredrickkebaso/bioinformatics-env \
     bash -c "busco -i /spades_results/contigs.fasta -l diptera_odb10 -o busco_output --mode genome --cpu 8 --force"
+
+# -------------------- Descriptions --------------------
+
+# --rm : Automatically removes the container after execution.  
+# -u $(id -u):$(id -g) : Runs the container with the current user’s ID and group.  
+# -v : Mounts a directory from the host machine to the container.  
+# -w : Sets the working directory inside the container.  
+# -i : Specifies the input assembly file.  
+# -l : Sets the lineage dataset for BUSCO analysis.  
+# -o : Defines the output directory name.  
+# --mode genome : Runs BUSCO in genome mode.  
+# --cpu 8 : Uses 8 CPU cores.  
+# --force : Overwrites existing results if present.  
