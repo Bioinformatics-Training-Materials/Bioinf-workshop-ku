@@ -1,8 +1,0 @@
-#!/bin/bash
-base_dir="/home/fkebaso/nfs/projects/hippo/short_reads/backups/extracted_files/mnt/lustre/users/fkebaso/hippo/hcamelina_female/data/merged_raw_reads/split_files"
-reads="${base_dir}"
-results="${base_dir}/results/fastqc"
-
-mkdir "${results}"
-
-fastqc -t 32 -o "${results}" ${reads}/*.part_184.fastq.gz
