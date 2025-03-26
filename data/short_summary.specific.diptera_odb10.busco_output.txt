@@ -1,0 +1,31 @@
+# BUSCO version is: 5.8.3
+# The lineage dataset is: diptera_odb10 (Creation date: 2024-01-08, number of genomes: 56, number of BUSCOs: 3285)
+# Summarized benchmarking in BUSCO notation for file /spades_results/contigs.fasta
+# BUSCO was run in mode: euk_genome_min
+# Gene predictor used: miniprot
+
+    ***** Results: *****
+
+    C:85.0%[S:85.0%,D:0.0%],F:5.0%,M:10.0%,n:3285
+    2792    Complete BUSCOs (C)
+    2792    Complete and single-copy BUSCOs (S)
+    0       Complete and duplicated BUSCOs (D)
+    164     Fragmented BUSCOs (F)
+    329     Missing BUSCOs (M)
+    3285    Total BUSCO groups searched
+
+Assembly Statistics:
+    10726   Number of scaffolds
+    10726   Number of contigs
+    1677699 Total length
+    0.000%  Percent gaps
+    3 KB    Scaffold N50
+    3 KB    Contigs N50
+
+Dependencies and versions:
+    hmmsearch: 3.4
+    bbtools: None
+    miniprot_index: 0.14-r265
+    miniprot_align: 0.14-r265
+    python: sys.version_info(major=3, minor=10, micro=16, releaselevel='final', serial=0)
+    busco: 5.8.3
