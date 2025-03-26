@@ -10,6 +10,11 @@ You only need a google account to sign in to: [Google Cloud Platform Console](ht
 
 ## Usage Instructions
 
+### Activate your cloud shell as shown below:
+
+![Screenshot 2025-03-26 192540](https://github.com/user-attachments/assets/935866d9-e945-48f5-962b-b69b78645a6a)
+
+
 Follow these steps sequentially to process your sequencing data:
 
 ### Accessing the console on Google cloud
