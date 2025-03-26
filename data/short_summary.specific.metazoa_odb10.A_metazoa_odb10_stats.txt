@@ -1,0 +1,35 @@
+# BUSCO version is: 5.4.7 
+# The lineage dataset is: metazoa_odb10 (Creation date: 2021-02-17, number of genomes: 65, number of BUSCOs: 954)
+# Summarized benchmarking in BUSCO notation for file /mnt/lustre/users/fkebaso/hippo/hcamelina_male/results/repeatmasker/spades/hcamelina_male_spades_genome.fa
+# BUSCO was run in mode: euk_genome_aug
+# Gene predictor used: augustus
+
+	***** Results: *****
+
+	C:96.6%[S:96.6%,D:0.0%],F:1.6%,M:1.8%,n:954	   
+	922	Complete BUSCOs (C)			   
+	922	Complete and single-copy BUSCOs (S)	   
+	0	Complete and duplicated BUSCOs (D)	   
+	15	Fragmented BUSCOs (F)			   
+	17	Missing BUSCOs (M)			   
+	954	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	171249	Number of scaffolds
+	171249	Number of contigs
+	148444945	Total length
+	0.000%	Percent gaps
+	2 KB	Scaffold N50
+	2 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	makeblastdb: 2.14.0+
+	tblastn: 2.14.0+
+	augustus: 3.5.0
+	gff2gbSmallDNA.pl: None
+	new_species.pl: None
+	etraining: None
+	busco: 5.4.7
