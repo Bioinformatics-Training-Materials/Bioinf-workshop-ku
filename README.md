@@ -95,7 +95,7 @@ bash scripts/05_busco_plot.sh
 ```
 - Runs a Python script inside Docker to visualize BUSCO results. Access the plot in  `results/busco/`. 
 
-### 6. Typical plot from previous run
+### 6. Typical plot from previous run with the complete genome 
 ```bash
 bash scripts/06_busco_plot_2.sh
 ```
